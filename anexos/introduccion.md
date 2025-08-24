@@ -13,7 +13,7 @@ Describir con ejemplos del proyecto (coordinador de repo)
 - 1. **Administración de proyectos:** creación y edición de proyectos, además de gestión de datos de los proyectos (nombre, fechas estimadas de finalización, estado, observaciones).
 - 2. **Gestión de etapas:** responsable de cada etapa, fecha, estado (pendiente, en curso, finalizada) y observaciones.
 - 3. **Tablero de control:** Para ver todos los proyectos y etapa en que se encuentra.
-- 4. **Registro estadístico:** en donde se pueda consultar la cantidad de proyectos entregados por mes, duración promedio de proyectos y etapas y que tipo de proyecto se hace más. También filtrar por cliente, por tipo de proyecto y ver cuanto demora cada etapa en promedio.
+- 4. **Notificaciones automáticas:** vía mail y WhatsApp para avisar cuando se termina una etapa, cuando se asigna una nueva tarea o cuando se asigna un nuevo responsable.
 - 5. **Registro estadístico:** en donde se pueda consultar la cantidad de proyectos entregados por mes, duración promedio de proyectos y etapas y que tipo de proyecto se hace más. También filtrar por cliente, por tipo de proyecto y ver cuanto demora cada etapa en promedio.
 - 6. **Historial de tareas:** Registrar automáticamente que usuario completó cada tarea.
 
