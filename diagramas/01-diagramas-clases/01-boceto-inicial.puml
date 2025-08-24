@@ -1,0 +1,68 @@
+@startuml
+title Boceto Inicial de Clases - Sistema Productora de Videos
+
+class Usuario {
+  - usuario : String
+  - contraseña : String
+  + iniciarSesion()
+  + registrarse()
+  + solicitarProyecto()
+}
+
+class Proyecto {
+  - nroProyecto : int
+  - nombre : String
+  - tipo/tema: String
+  - fechaInicio : Date
+  - etapa : String
+  - precio : float
+  + buscarVideo (string)
+  + agregarVideo(video : Video)
+  + asignarEmpleados(empleado : Empleado)
+  + notificarResponsables : (empleado : mail/whatsApp)
+  + cambiarEstado(nuevoEstado : String)
+}
+
+class PanelControL {
+  + mostrarListadoDeProyectos()
+  + listarPendientes()
+  + listarEnCurso()
+  + listarTerminados()
+  + mostrarResponsablesPorProyecto()
+}
+
+class Video {
+  - nroProyecto : int
+  - titulo : String
+  - duracion : Int
+  + reproducir()
+  + exportar()
+  + eliminar()
+}
+
+class Empleado {
+  - nombre : String
+  - rol : String
+  + asignarTarea(tarea : Tarea)
+}
+
+class Tarea {
+  - nroProyecto : int
+  - descripcion : String
+  - fechaEntrega : Date
+  + grabar() 
+  + revisar() 
+  + editar()
+  + marcarComoCompleta()
+  + publicar()
+}
+
+' ====== Relaciones ======
+Usuario "1" -- "many" Proyecto
+Usuario "1" -- "many" PanelControl
+Proyecto "1" -- "many" Video
+Proyecto "1" -- "many" Empleado
+Proyecto "1" -- "many" Tarea
+PanelControl ..> Empleado
+PanelControl ..> Tarea
+@enduml
