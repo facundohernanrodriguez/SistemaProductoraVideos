@@ -13,7 +13,7 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [dantebiondi666-prog-patch-1] Automatización del template para entrega de PR.  
   PR: [#10](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/10) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#11](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/11).
 
-- [feature/analista-de-requerimientos-correciones] Agregado de anexos.md y changelog.md.  
+- [feature/analista-de-requerimientos-correciones] Agregado de carpeta anexos, anexos.md y changelog.md.  
   PR: [#13](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/13) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#12](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/12).
   
 
