@@ -18,7 +18,7 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
   
 
 ### Changed
-- [feature/analista-de-requerimientos-correciones] Actualización README.md e introduccion.md con definición de paradigma y los 4 fundamentos.  
+- [feature/analista-de-requerimientos-correciones] Actualización README.md e introduccion.md con definición de paradigma y los 4 fundamentos. Actualización de anexos.md.  
   PR: [#13](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/13) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#12](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/12)
 
 ### Fixed
