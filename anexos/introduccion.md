@@ -59,3 +59,11 @@ Es el mismo método, pero distinto comportamiento según el objeto.
 - 4. **Escalabilidad** Debe permitir agregar etapas de ser necesario, asi como agregar nuevas funcionalidades, por ejemplo, facturación.
 - 5. **Guardado de datos** Todo tiene que ser guardado sin pérdida de datos.
 - 6. **Rendimiento** Se tiene que poder gestionar múltiples proyectos en simultaneo sin bajar el rendimiento del sistema.
+
+## Casos de uso
+
+Desarrollo de los cinco casos de uso (modelador de casos de uso)
+
+## Boceto inicial del diseño de clases
+
+Incluir una imagen incrustada en el archivo y un enlace para visualizarla en linea (Diseñador de clases iniciales)
