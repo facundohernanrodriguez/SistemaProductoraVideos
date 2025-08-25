@@ -1,10 +1,44 @@
 # Anexo - Introducción al Diseño Orientado a Objetos
 
-Definir que es el paradigma orientado a objetos (coordinador de repo)
+El paradigma orientado a objetos (abreviado POO), es un modelo de programación que organiza y forma al sistema como un conjunto de objetos los cuales representan entidades del mundo real o conceptos abstractos. Los objetos poseen atributos (datos o propiedades) los cuales describen su estado y como es el objeto, y métodos (funcionalidades y comportamientos) los cuales definen que cosas puede hacer el objeto.
+Una de las mayores ventajas del POO es que los programas se centran en clases (tipos) y objetos (instancias), encapsulando datos y operaciones para reducir complejidad y facilitar mantenimiento y reutilización.
 
 ## Los cuatro fundamentos del POO
 
-Describir con ejemplos del proyecto (coordinador de repo)
+### 1. Abstracción
+**Concepto:** identificar y representar solo las características esenciales de un objeto del mundo real en el sistema, dejando de lado los detalles innecesarios para el contexto.
+
+**Ejemplo:**  
+En el sistema, un supuesto **ProyectoAudiovisual** se abstrae como un objeto con atributos como *nombre, cliente, fechas, etapas, estado*.  
+No es necesario modelar detalles irrelevantes como el color del logo del cliente, el modelo de cámara usada en la grabación o la tipografía del contrato.  
+La abstracción permite enfocarse en lo que es relevante para gestionar y dar seguimiento a un proyecto, sin cargar el sistema con datos irrelevantes que no aportan al objetivo.
+
+---
+
+### 2. Encapsulamiento
+**Concepto:** proteger los datos de un objeto controlando el acceso mediante métodos.  
+
+**Ejemplo:**  
+Una supuesta clase **Etapa** guardaría los valores `estado` y `responsable`.  
+Estos valores no tendrían que poder ser modificados directamente, salvo mediante métodos como `cambiarEstado()` o `asignarResponsable()`, asegurando consistencia.
+
+---
+
+### 3. Herencia
+**Concepto:** crear nuevas clases a partir de otras, reutilizando atributos y métodos comunes.  
+
+**Ejemplo:**  
+Una clase **Usuario** general, de la cual heredan **Productor**, **Editor**, **Asistente**, y más adelante **Cliente**.  
+Cada uno puede tener atributos y permisos adicionales.
+
+---
+
+### 4. Polimorfismo
+**Concepto:** distintas clases pueden responder de manera diferente al mismo mensaje o método.  
+
+**Ejemplo:**  
+Un supuesto método `notificar()` puede enviar un **mail** si el responsable prefiere correo, o un **mensaje de WhatsApp** si así está configurado.  
+Es el mismo método, pero distinto comportamiento según el objeto.
 
 ## Requisitos iniciales del sistema
 
