@@ -14,16 +14,16 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
   PR: [#10](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/10) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#11](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/11).
 
 - [feature/analista-de-requerimientos-correciones] Agregado de anexos.md y changelog.md.  
-  PR: [#](link) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#12](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/12).
+  PR: [#13](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/13) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#12](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/12).
   
 
 ### Changed
 - [feature/analista-de-requerimientos-correciones] Actualización README.md e introduccion.md con definición de paradigma y los 4 fundamentos.  
-  PR: [#](link) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#12](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/12)
+  PR: [#13](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/13) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#12](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/12)
 
 ### Fixed
 - [feature/analista-de-requerimientos-correciones] Corrección de requisito funcional repetido.  
-  PR: [#](link) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#9](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/9).
+  PR: [#13](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/13) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#9](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/9).
 
 ---
 
