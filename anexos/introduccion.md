@@ -62,7 +62,69 @@ Es el mismo método, pero distinto comportamiento según el objeto.
 
 ## Casos de uso
 
-Desarrollo de los cinco casos de uso (modelador de casos de uso)
+
+### 1. Gestionar Proyectos y Etapas
+**Actores:** Proyecto, Tarea  
+**Descripción:** Permite crear, editar y eliminar proyectos y sus etapas asociadas.  
+**Flujo principal:**  
+1. El usuario selecciona "Gestionar Proyectos".  
+2. Crea un nuevo proyecto y define sus etapas.  
+3. Guarda los cambios.  
+4. El sistema confirma la creación o edición.  
+**Flujos alternativos:**  
+- Si no se completan todos los campos obligatorios, el sistema muestra un mensaje de error.  
+**Requisitos previos:** El usuario debe estar autenticado en el sistema.  
+**Postcondiciones:** Se registra el proyecto con sus etapas en la base de datos.
+
+
+### 2. Asignar Responsable a Etapa/Tarea
+**Actores:** Empleado, Tarea  
+**Descripción:** Permite asignar empleados a tareas específicas dentro de un proyecto o etapa.  
+**Flujo principal:**  
+1. El usuario selecciona una tarea.  
+2. Asigna uno o varios empleados responsables.  
+3. Guarda los cambios.  
+**Flujos alternativos:**  
+- Si el empleado ya tiene otra tarea asignada en conflicto, se muestra un aviso.  
+**Requisitos previos:** El proyecto y la tarea deben existir.  
+**Postcondiciones:** La tarea queda vinculada con los empleados asignados.
+
+### 3. Cambiar Estado de Proyecto/Etapa
+**Actores:** Proyecto, Etapa  
+**Descripción:** Permite modificar el estado de un proyecto o de una etapa (ej. en curso, finalizado).  
+**Flujo principal:**  
+1. El usuario selecciona el proyecto o la etapa.  
+2. Cambia el estado a uno de los disponibles.  
+3. Guarda los cambios.  
+**Flujos alternativos:**  
+- Si el cambio de estado no cumple las reglas de negocio, el sistema bloquea la acción.  
+**Requisitos previos:** El proyecto o etapa debe existir.  
+**Postcondiciones:** El proyecto o etapa queda actualizado con el nuevo estado.
+
+### 4. Generar Reporte de Progreso
+**Actores:** Usuario, Proyecto  
+**Descripción:** Permite generar reportes sobre el progreso de los proyectos y tareas.  
+**Flujo principal:**  
+1. El usuario selecciona el proyecto a reportar.  
+2. El sistema recopila información de tareas y etapas.  
+3. Se genera un reporte en PDF o Excel.  
+**Flujos alternativos:**  
+- Si no hay información disponible, se muestra un mensaje de alerta.  
+**Requisitos previos:** El proyecto debe tener tareas o etapas registradas.  
+**Postcondiciones:** Se obtiene un archivo con el reporte del proyecto.
+
+### 5. Notificar Cambios a Empleados
+**Actores:** Sistema, Empleado  
+**Descripción:** Envía notificaciones a los empleados sobre cambios en tareas o proyectos.  
+**Flujo principal:**  
+1. Se realiza un cambio en una tarea o proyecto.  
+2. El sistema identifica los empleados afectados.  
+3. Se envían notificaciones por correo o dentro del sistema.  
+**Flujos alternativos:**  
+- Si el empleado no tiene correo registrado, se envía solo notificación interna.  
+**Requisitos previos:** Deben existir tareas o proyectos con responsables asignados.  
+**Postcondiciones:** Los empleados reciben las notificaciones correspondientes.
+
 
 ## Boceto inicial del diseño de clases
 
