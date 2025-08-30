@@ -21,6 +21,9 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [feature/analista-de-requerimientos-correciones] Actualización README.md e introduccion.md con definición de paradigma y los 4 fundamentos. Actualización de anexos.md.  
   PR: [#13](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/13) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#12](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/12)
 
+- [feature/unificar-carpeta-diagramas] Unificación de carpeta de diagrama y borrado de carpetas incorrectas.  
+  PR: [#15](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/15) - @dantebiondi666-prog (Analista de requerimientos/coordinador de repositorio), Issue: [#14](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/14)
+
 ### Fixed
 - [feature/analista-de-requerimientos-correciones] Corrección de requisito funcional repetido.  
   PR: [#13](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/13) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#9](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/9).
