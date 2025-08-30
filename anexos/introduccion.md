@@ -44,21 +44,37 @@ Es el mismo método, pero distinto comportamiento según el objeto.
 
 ### Requisitos funcionales:
 
-- 1. **Administración de proyectos:** creación y edición de proyectos, además de gestión de datos de los proyectos (nombre, fechas estimadas de finalización, estado, observaciones).
-- 2. **Gestión de etapas:** responsable de cada etapa, fecha, estado (pendiente, en curso, finalizada) y observaciones.
-- 3. **Tablero de control:** Para ver todos los proyectos y etapa en que se encuentra.
-- 4. **Notificaciones automáticas:** vía mail y WhatsApp para avisar cuando se termina una etapa, cuando se asigna una nueva tarea o cuando se asigna un nuevo responsable.
-- 5. **Registro estadístico:** en donde se pueda consultar la cantidad de proyectos entregados por mes, duración promedio de proyectos y etapas y que tipo de proyecto se hace más. También filtrar por cliente, por tipo de proyecto y ver cuanto demora cada etapa en promedio.
-- 6. **Historial de tareas:** Registrar automáticamente que usuario completó cada tarea.
+- **RF01. Administración de proyectos:** El sistema debe permitir **crear y editar proyectos**, registrando al menos: nombre, cliente, fechas de inicio y fin estimadas, estado actual y observaciones.  
+
+- **RF02. Gestión de etapas:** El sistema debe permitir **agregar y modificar etapas** en un proyecto, indicando responsable, estado (Pendiente, En curso, Finalizada), fechas estimadas y observaciones.
+
+- **RF03. Tablero de control:** El sistema debe mostrar un **panel general** donde se visualice el estado de todos los proyectos y sus etapas, indicando si están en curso, finalizados o pausados y el responsable de cada etapa.
+  
+- **RF04. Notificaciones automáticas:** El sistema debe **enviar notificaciones automáticas** (por mail y WhatsApp) al responsable cuando:  
+  - Se le asigna una nueva etapa.  
+  - Cambia el estado de su etapa.  
+  - Una etapa a su cargo pasa a “Finalizada”.
+
+- **RF05. Registro estadístico:** El sistema debe permitir **consultar métricas** de proyectos y etapas, incluyendo:  
+  - Cantidad de proyectos entregados por mes.  
+  - Duración promedio de proyectos y etapas.  
+  - Proyectos filtrados por cliente o tipo.
+    
+- **RF06. Historial de tareas:** El sistema debe **registrar automáticamente** qué usuario completó cada tarea y los cambios de estado de cada etapa.
 
 ### Requisitos no funcionales:
 
-- 1. **Accesibilidad multiplataforma:** disponible tanto en web como en celular.
-- 2. **Facilidad de uso:** Interfaz simple e intuitiva de uso, con listas y filtros de proyectos y etapas.
-- 3. **Disponibilidad:** Accesible las 24 horas del día desde cualquier dispositivo.
-- 4. **Escalabilidad** Debe permitir agregar etapas de ser necesario, asi como agregar nuevas funcionalidades, por ejemplo, facturación.
-- 5. **Guardado de datos** Todo tiene que ser guardado sin pérdida de datos.
-- 6. **Rendimiento** Se tiene que poder gestionar múltiples proyectos en simultaneo sin bajar el rendimiento del sistema.
+- **RNF01. Accesibilidad multiplataforma:** El sistema debe estar disponible desde **navegadores web de escritorio y móviles** (Chrome, Edge, Safari) y ser responsive en pantallas de al menos 5” de ancho.
+
+- **RNF02. Facilidad de uso:** El sistema debe permitir que **un usuario nuevo realice su primera acción (crear proyecto o etapa)** en menos de **10 minutos de aprendizaje autónomo**, con menús y filtros accesibles.
+
+- **RNF03. Disponibilidad:** El sistema debe estar disponible al menos el **99% del tiempo**, excluyendo mantenimientos planificados.
+
+- **RNF04. Escalabilidad:** El sistema debe soportar la gestión de al menos **100 proyectos en simultáneo**, con posibilidad de extender a nuevas funciones como facturación sin rediseño completo.
+
+- **RNF05. Guardado de datos:** El sistema debe guardar automáticamente cada cambio en proyectos y etapas en menos de **2 segundos**, garantizando persistencia aunque se recargue la página.
+
+- **RNF06. Rendimiento:** El sistema debe permitir consultar y filtrar proyectos sin que el tiempo de respuesta supere **3 segundos** en escenarios con hasta **50 proyectos activos y 200 etapas**.
 
 ## Casos de uso
 
