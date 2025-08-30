@@ -24,4 +24,4 @@ Este sistema (basado en el paradigma Orientado a Objetos) busca resolver problem
 
 ## Diagramas y Diseños
 
-- [Anexos](/anexos/)
+- [Anexos](/anexos/anexos.md)
