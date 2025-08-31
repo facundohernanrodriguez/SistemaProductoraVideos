@@ -18,9 +18,9 @@ Este sistema (basado en el paradigma Orientado a Objetos) busca resolver problem
 | Nombre y Apellido      | Matrícula  | Usuario de GitHub          |
 |-------------------------|------------|----------------------------|
 | Dante Biondi           | 156462      | @dantebiondi666-prog       |
-| Nombre Apellido 2      | 000000      | @usuario2                  |  
-| Nombre Apellido 3      | 000000      | @usuario3                  |
-| Nombre Apellido 4      | 000000      | @usuario4                  |
+| Juan Martin Britos     | 155984     | @juanmartinbritos7-cmd                 |  
+|      |      |                  |
+
 
 ## Diagramas y Diseños
 

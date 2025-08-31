@@ -15,6 +15,10 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 - [feature/analista-de-requerimientos-correciones] Agregado de carpeta anexos, anexos.md y changelog.md.  
   PR: [#13](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/13) - @dantebiondi666-prog (Analista de requerimientos, coordinador de repositorio y documentador), Issue: [#12](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/12).
+
+- [feature/casos-de-uso-correccion] Identifique los casos de uso y los documente en introduccion.md
+  PR: [#22](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/22) - @juanmartinbritos7-cmd (Modelador de Casos de Uso), Issue: [#5](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/5).
+
   
 
 ### Changed
