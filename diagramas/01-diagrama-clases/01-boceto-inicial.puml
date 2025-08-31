@@ -1,68 +1,82 @@
-@startuml
+@startuml Diagrama_Inicial
 title Boceto Inicial de Clases - Sistema Productora de Videos
 
-class Usuario {
-  - usuario : String
-  - contraseña : String
-  + iniciarSesion()
-  + registrarse()
-  + solicitarProyecto()
-}
-
 class Proyecto {
-  - nroProyecto : int
-  - nombre : String
-  - tipo/tema: String
-  - fechaInicio : Date
-  - etapa : String
-  - precio : float
-  + buscarVideo (string)
-  + agregarVideo(video : Video)
-  + asignarEmpleados(empleado : Empleado)
-  + notificarResponsables : (empleado : mail/whatsApp)
-  + cambiarEstado(nuevoEstado : String)
+  - projectId: UUID
+  - nombre: String
+  - cliente: String
+  - fechaInicioEstimada: Date
+  - fechaFinEstimada: Date
+  - estado: EstadoProyecto
+  - observaciones: String
+  + agregarEtapa()
+  + eliminarEtapa()
+  + obtenerDuracionPromedioEtapas(): Duration
+  + finalizarSiCorresponde(): void
 }
 
-class PanelControL {
-  + mostrarListadoDeProyectos()
-  + listarPendientes()
-  + listarEnCurso()
-  + listarTerminados()
-  + mostrarResponsablesPorProyecto()
+class Etapa {
+  - stageId: UUID
+  - nombre: String
+  - estado: EstadoEtapa
+  - fechaInicioEstimada: Date
+  - fechaFinEstimada: Date
+  - fechaFinReal: Date
+  - observaciones: String
+  - responsable: Usuario
+  + asignarResponsable()
+  + cambiarEstado()
+  + agregarComentario()
+  + adjuntar()
 }
 
-class Video {
-  - nroProyecto : int
-  - titulo : String
-  - duracion : Int
-  + reproducir()
-  + exportar()
-  + eliminar()
+class Usuario {
+  - userId: UUID
+  - nombre: String
+  - email: String
+  - rol: RolUsuario
+  - canalPreferido: CanalNotificacion
+  + puedeGestionarProyectos(): boolean
+  + puedeGestionarEtapas(): boolean
+  + notificar()
 }
 
-class Empleado {
-  - nombre : String
-  - rol : String
-  + asignarTarea(tarea : Tarea)
+class Comentario {
+  - commentId: UUID
+  - texto: String
+  - fechaHora: DateTime
+  - autor: Usuario
 }
 
-class Tarea {
-  - nroProyecto : int
-  - descripcion : String
-  - fechaEntrega : Date
-  + grabar() 
-  + revisar() 
-  + editar()
-  + marcarComoCompleta()
-  + publicar()
+class Adjunto {
+  - attachId: UUID
+  - titulo: String
+  - url: String
+  - tipo: String
+  - fechaAdjunto: DateTime
 }
 
-' ====== Relaciones ======
-Usuario "1" -- "many" Proyecto
-Usuario "1" -- "many" PanelControl
-Proyecto "1" -- "many" Video
-Proyecto "1" -- "many" Empleado
-Proyecto "1" -- "many" Tarea
-PanelControl ..> Empleado
-PanelControl ..> Tarea
+class Notificacion {
+  - notificationId: UUID
+  - asunto: String
+  - mensaje: String
+  - canal: CanalNotificacion
+  - fechaHora: DateTime
+  - destino: Usuario
+  - resultado: String
+}
+
+class ServicioNotificaciones {
+  + enviar(): boolean
+}
+
+' ==== RELACIONES ====
+Proyecto "1" o-- "1..*" Etapa : contiene
+Etapa "0..*" o-- "0..*" Comentario : registra
+Etapa "0..*" o-- "0..*" Adjunto : adjunta
+Etapa "1" --> "1" Usuario : responsable
+Usuario --> ServicioNotificaciones : «usa»
+Notificacion --> Usuario : destino
+Notificacion --> Etapa : sobre
+
 @enduml
