@@ -11,27 +11,27 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
   PR: [#3](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/3) - @dantebiondi666-prog (Analista de Requerimientos), Issue: [#2](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/2).
 
 - [dantebiondi666-prog-patch-1] Automatización del template para entrega de PR.  
-  PR: [#10](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/10) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#11](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/11).
+  PR: [#10](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/10) - @dantebiondi666-prog (Analista de requerimientos, Coordinador de repositorio y documentador), Issue: [#11](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/11).
 
 - [feature/analista-de-requerimientos-correciones] Agregado de carpeta anexos, anexos.md y changelog.md.  
-  PR: [#13](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/13) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#12](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/12).
+  PR: [#13](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/13) - @dantebiondi666-prog (Analista de requerimientos, coordinador de repositorio y documentador), Issue: [#12](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/12).
   
 
 ### Changed
 - [feature/analista-de-requerimientos-correciones] Actualización README.md e introduccion.md con definición de paradigma y los 4 fundamentos. Actualización de anexos.md.  
-  PR: [#13](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/13) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#12](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/12)
+  PR: [#13](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/13) - @dantebiondi666-prog (Analista de requerimientos, coordinador de repositorio y documentador), Issue: [#12](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/12)
 
 - [feature/unificar-carpeta-diagramas] Unificación de carpeta de diagrama y borrado de carpetas incorrectas.  
-  PR: [#15](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/15) - @dantebiondi666-prog (Analista de requerimientos/coordinador de repositorio), Issue: [#14](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/14)
+  PR: [#15](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/15) - @dantebiondi666-prog (Analista de requerimientos, coordinador de repositorio y documentador, diseñador de clases iniciales), Issue: [#14](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/14)
 
 - [feature/unificar-carpeta-diagramas] Correción del link en readme.md que lleva a archivo anexos.  
-  PR: [#15](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/15) - @dantebiondi666-prog (Analista de requerimientos/coordinador de repositorio), Issue: [#16](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/16)
+  PR: [#15](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/15) - @dantebiondi666-prog (Analista de requerimientos, coordinador de repositorio y documentador), Issue: [#16](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/16)
 
 - [feature/unificar-carpeta-diagramas] Correción de requisitos funcionales y no funcionales en requisitos medibles y menos genéricos. Corrección de nomeclatura de requisitos en introduccion.md.  
-  PR: [#15](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/15) - @dantebiondi666-prog (Analista de requerimientos/coordinador de repositorio), Issue: [#17](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/17)
+  PR: [#15](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/15) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#17](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/17)
 
 - [feature/correcciones-diseno-de-clases] Correción de diagramas de clases, actualización de introduccion.md incluyendo una imagen del diagrama y link al diagrama en github. Ordenamiento de carpeta diagramas, renombramiento de archivos.  
-  PR: [#21](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/21) - @dantebiondi666-prog (Analista de requerimientos/coordinador de repositorio, modelador de clases), Issue: [#18](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/18) [#19](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/19)
+  PR: [#21](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/21) - @dantebiondi666-prog (Analista de requerimientos, coordinador de repositorio y documentador, modelador de clases), Issue: [#18](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/18) [#19](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/19)
 
 ### Fixed
 - [feature/analista-de-requerimientos-correciones] Corrección de requisito funcional repetido.  
