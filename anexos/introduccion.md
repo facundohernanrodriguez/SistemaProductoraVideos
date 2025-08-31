@@ -82,4 +82,10 @@ Desarrollo de los cinco casos de uso (modelador de casos de uso)
 
 ## Boceto inicial del diseño de clases
 
-Incluir una imagen incrustada en el archivo y un enlace para visualizarla en linea (Diseñador de clases iniciales)
+### Diagrama de Clases Iniciales
+
+El siguiente diagrama corresponde al diseño de clases iniciales para el sistema:
+
+![Diagrama de Clases](../diagramas/01-diagrama-clases/01-boceto-inicial.png)
+
+[🔗 Ver diagrama en GitHub](../diagramas/01-diagrama-clases/01-boceto-inicial.png)
