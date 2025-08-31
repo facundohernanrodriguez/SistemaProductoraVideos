@@ -19,6 +19,10 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [feature/casos-de-uso-correccion] Identifique los casos de uso y los documente en introduccion.md
   PR: [#22](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/22) - @juanmartinbritos7-cmd (Modelador de Casos de Uso), Issue: [#5](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/5).
 
+- [develop] Creacion y proteccion de ramas release y master para entrega final del proyecto.
+  PR: [#24](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/24) - @dantebiondi666-prog (Coordinador de Repositorio y Documentador), Issue: [#23](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/23).
+
+
   
 
 ### Changed
