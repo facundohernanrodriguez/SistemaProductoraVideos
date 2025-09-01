@@ -2,9 +2,10 @@
 
 Este archivo se actualiza con cada Pull Request para registrar avances y correcciones.
 
----
 
 ## [Unreleased]
+
+## [Release Actividad Obligatoria N°1] - (01-09-2025)
 
 ### Added
 - [feature/analista-de-requerimientos-add-requisitos] Creación de rama y estructura inicial de introduccion.md, docuementando los requisitos funcionales y no funcionales.  
@@ -45,14 +46,7 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [feature/analista-de-requerimientos-correciones] Corrección de requisito funcional repetido.  
   PR: [#13](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/pull/13) - @dantebiondi666-prog (Analista de requerimientos), Issue: [#9](https://github.com/facundohernanrodriguez/UCES-DOO-Grupo1/issues/9).
 
----
 
-## [Release Actividad Obligatoria N°1] - (fecha de entrega)
-
-Aquí se listarán todas las Pull Requests que entraron en esta release.  
-Actualmente están en la sección [Unreleased] porque sólo están en la rama `develop`.
-
----
 
 ## Cómo usar este archivo
 
