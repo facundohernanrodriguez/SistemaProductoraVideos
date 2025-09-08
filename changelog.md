@@ -4,6 +4,9 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 
 ## [Unreleased]
+### Added
+- [release/actividad-obligatoria-1] Automatización de template para PR de release y organización en carpeta.
+  PR: [#25](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/25) - @dantebiondi666-prog (Coordinador de Repositorio y Documentador), Issue: [#26](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/26).
 
 ## [Release Actividad Obligatoria N°1] - (01-09-2025)
 
