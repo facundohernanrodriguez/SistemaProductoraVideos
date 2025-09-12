@@ -7,9 +7,11 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 ### Added
 - [release/actividad-obligatoria-1] Automatización de template para PR de release y organización en carpeta.
   PR: [#25](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/25) - @dantebiondi666-prog (Coordinador de Repositorio y Documentador), Issue: [#26](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/26).
-  ### Fixed
+### Fixed
 - [release/actividad-obligatoria-1] Corrección de boceto inicial de clases y archivo png en /diagramas y en introduccion.md.  
-  PR: [#25](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/25) - @dantebiondi666-prog (Diseñador de clases iniciales), Issue: [#27](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/27).
+PR: [#25](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/25) - @dantebiondi666-prog (Diseñador de clases iniciales), Issue: [#27](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/27).
+- [release/actividad-obligatoria-1] Corrección casos de uso en introduccion.md.  
+  PR: [#25](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/pull/25) - @dantebiondi666-prog (Diseñador de clases iniciales), Issue: [#28](https://github.com/dantebiondi666-prog/SistemaProductoraVideos/issues/28).  
 
 
 ## [Release Actividad Obligatoria N°1] - (01-09-2025)
